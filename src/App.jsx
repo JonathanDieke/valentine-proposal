@@ -57,7 +57,7 @@ function App() {
       <div className="card">
         {!yesClicked ? (
           <>
-            <h1>Mel, <br/> will you be my Valentine ? <br/> 💖</h1>
+            <h1>Mel', <br/> will you be my Valentine ? <br/> 💖</h1>
 
             <div
               className="buttons"
