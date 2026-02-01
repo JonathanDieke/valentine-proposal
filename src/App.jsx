@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import victoryGif from "./assets/victory.gif";
 import "./App.css";
 
 function App() {
@@ -56,7 +57,7 @@ function App() {
       <div className="card">
         {!yesClicked ? (
           <>
-            <h1>Mel, will you be my Valentine? 💖</h1>
+            <h1>Mel, <br/> will you be my Valentine ? <br/> 💖</h1>
 
             <div
               className="buttons"
@@ -75,7 +76,7 @@ function App() {
         ) : (
           <>
             <h1>Yaaay 🎉💘</h1>
-            <img src="/victory.gif" width="250" />
+            <img src={victoryGif} alt="Victory" width="250" />
           </>
         )}
       </div>
